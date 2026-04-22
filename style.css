@@ -1,16 +1,8 @@
-/* ================================================
-   LUIZ CARLOS — PORTFÓLIO
-   Tema: Dark terminal / developer aesthetic
-   Fonte display: Syne | Fonte código: JetBrains Mono
-   ================================================ */
-
-/* ---------- RESET & BASE ---------- */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 :root {
   /* Paleta principal */
   --bg:          #0d0d0d;
@@ -19,33 +11,26 @@
   --bg-card:     #141414;
   --border:      #232323;
   --border-hover:#333333;
-
   /* Texto */
   --text-primary:   #f0ede8;
   --text-secondary: #888880;
   --text-muted:     #484845;
-
   /* Acento */
   --accent:      #c8f135;    /* verde-lima elétrico */
   --accent-dim:  rgba(200, 241, 53, 0.08);
   --accent-glow: rgba(200, 241, 53, 0.18);
-
   /* Tipografia */
   --font-display: 'Syne', sans-serif;
   --font-mono:    'JetBrains Mono', monospace;
-
   /* Espaçamentos */
   --container: 1100px;
   --section-py: 100px;
-
   /* Transição padrão */
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: var(--bg);
   color: var(--text-primary);
@@ -66,9 +51,6 @@ ul { list-style: none; }
   margin: 0 auto;
   padding: 0 24px;
 }
-
-.accent { color: var(--accent); }
-
 /* ---------- NAVBAR ---------- */
 #navbar {
   position: fixed;
@@ -274,7 +256,7 @@ ul { list-style: none; }
 .terminal-title {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--text-muted);
+  color: #888880;
   margin-left: auto;
 }
 
@@ -286,7 +268,7 @@ ul { list-style: none; }
 }
 
 .t-green  { color: #28c840; }
-.t-gray   { color: var(--text-muted); }
+.t-gray   { color: #888880; }
 .t-blue   { color: #5dbbfe; }
 .t-white  { color: var(--text-primary); }
 .t-out    { color: var(--text-secondary); padding-left: 4px; }
@@ -385,7 +367,7 @@ section {
 /* ---------- SOBRE ---------- */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 260px; 
   gap: 40px;
   align-items: start;
 }
@@ -400,28 +382,6 @@ section {
   color: var(--text-primary);
   font-weight: 500;
 }
-
-.about-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-.tag {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  padding: 5px 12px;
-  border: 1px solid var(--border-hover);
-  border-radius: 4px;
-  color: var(--text-secondary);
-  transition: all 0.2s var(--ease);
-}
-.tag:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
 .about-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
