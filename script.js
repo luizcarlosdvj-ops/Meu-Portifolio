@@ -1,8 +1,3 @@
-/* ================================================
-   LUIZ CARLOS — PORTFÓLIO
-   script.js — Interações e animações
-   ================================================ */
-
 /* ---------- 1. ANO DINÂMICO NO FOOTER ---------- */
 document.getElementById('year').textContent = new Date().getFullYear();
 
