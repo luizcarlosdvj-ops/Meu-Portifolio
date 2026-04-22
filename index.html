@@ -10,11 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-
   <!-- ========== NAVBAR ========== -->
   <nav id="navbar">
     <div class="nav-inner">
-      <a class="nav-logo" href="#hero">lc<span class="accent">.</span></a>
+      <a class="nav-logo" href="#hero">Home</a>
       <ul class="nav-links">
         <li><a href="#about">Sobre</a></li>
         <li><a href="#tech">Tecnologias</a></li>
@@ -34,21 +33,18 @@
       <a href="#contact" class="mob-link">Contato</a>
     </div>
   </nav>
-
   <!-- ========== HERO ========== -->
-  <section id="hero">
-    <!-- Decorative grid lines -->
+  <section id="hero"> <!-- Decorative grid lines -->
     <div class="grid-overlay"></div>
-
     <div class="hero-content">
       <p class="hero-label">// desenvolvedor web</p>
       <h1 class="hero-title">
-        Olá, eu sou<br />
+        Olá! Eu sou <br />
         <span class="name-highlight">Luiz</span>
       </h1>
       <p class="hero-sub"> Sou estudante de Análise e Desenvolvimento de Sistemas <br class="br-desktop" /> Busco crescer na área de TI </p>
       <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">Ver projetos</a>
+        <a href="#projects" class="btn btn-primary">Ver meus projetos</a>
         <a href="#contact" class="btn btn-ghost">Falar comigo</a>
       </div>
     </div>
@@ -58,34 +54,38 @@
         <span class="dot yellow"></span>
         <span class="dot green"></span>
         <span class="terminal-title">terminal</span>
-      </div>
       <div class="terminal-body">
-        <p><span class="t-green">luiz</span><span class="t-gray">@portfolio</span>:<span class="t-blue">~</span>$ <span class="t-white">whoami</span></p>
-        <p class="t-out">Luiz Carlos — dev em formação</p>
-        <p><span class="t-green">luiz</span><span class="t-gray">@portfolio</span>:<span class="t-blue">~</span>$ <span class="t-white">skills --list</span></p>
-        <p class="t-out">JavaScript · Node · APIs · Git</p>
-        <p><span class="t-green">luiz</span><span class="t-gray">@portfolio</span>:<span class="t-blue">~</span>$ <span class="t-white cursor-blink">_</span></p>
-      </div>
+    <p><span class="t-gray">// Sobre mim</span></p>
+    <p>
+       <span class="t-blue">const</span> 
+       <span class="t-white">nome</span> = 
+       <span class="t-green">"Luiz Carlos"</span>;
+    </p>
+    <p>
+       <span class="t-blue">const</span> 
+       <span class="t-white">cargo</span> = 
+       <span class="t-green">"Dev em formação"</span>;
+    </p>
     </div>
   </section>
-
   <!-- ========== SOBRE ========== -->
   <section id="about">
     <div class="container">
       <div class="section-header">
         <span class="section-num">01</span>
-        <h2 class="section-title">Sobre mim</h2>
-      </div>
-      <div class="about-grid">
+    <h2 class="section-title">Sobre mim</h2>
+    </div>
+        <div class="about-grid">
         <div class="about-text fade-in">
-          <p> Tenho 18 anos e sou estudante de <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong>. Antes do superior, concluí o curso técnico em Informática. </p>
-          <p> Busco minha primeira experiência profissional.</p>
-          <div class="about-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Backend</span>
-            <span class="tag">APIs REST</span>
-            <span class="tag">Open Source</span>
-          </div>
+            <p>
+                Tenho 18 anos e sou estudante de <strong>Análise e Desenvolvimento de Sistemas (ADS) no SENAI </strong>, onde venho aprofundando meus conhecimentos em desenvolvimento de software, lógica de programação e tecnologias modernas do mercado.
+            </p>
+            <p>
+                Durante o ensino médio, concluí o curso <strong>Técnico em Informática pela UNITAU</strong>, experiência que foi fundamental para construir minha base na área de tecnologia, incluindo programação, redes e banco de dados.
+            </p>
+            <p>
+                Atualmente, estou em busca da minha primeira oportunidade profissional na área de TI, onde eu possa aplicar meus conhecimentos na prática, contribuir com soluções e continuar crescendo tanto tecnicamente quanto pessoalmente.
+            </p>
         </div>
         <div class="about-card fade-in">
           <div class="card-stat">
@@ -98,19 +98,20 @@
             <span class="stat-label">projetos desenvolvidos</span>
           </div>
         </div>
+        <a href="seu-curriculo.pdf" target="_blank" class="btn btn-primary">
+        Ver meu currículo
+        </a>
       </div>
     </div>
   </section>
-
   <!-- ========== TECNOLOGIAS ========== -->
   <section id="tech">
     <div class="container">
       <div class="section-header">
         <span class="section-num">02</span>
-        <h2 class="section-title">Tecnologias</h2>
+        <h2 class="section-title">Minhas Skills</h2>
       </div>
       <div class="tech-grid">
-
         <!-- HTML -->
         <div class="tech-card fade-in">
           <div class="tech-icon html-icon">
@@ -119,7 +120,6 @@
           <span class="tech-name">HTML5</span>
           <span class="tech-desc">Estrutura & semântica</span>
         </div>
-
         <!-- CSS -->
         <div class="tech-card fade-in">
           <div class="tech-icon css-icon">
@@ -128,7 +128,6 @@
           <span class="tech-name">CSS3</span>
           <span class="tech-desc">Estilo & responsividade</span>
         </div>
-
         <!-- JavaScript -->
         <div class="tech-card fade-in">
           <div class="tech-icon js-icon">
@@ -137,7 +136,6 @@
           <span class="tech-name">JavaScript</span>
           <span class="tech-desc">Lógica & interatividade</span>
         </div>
-
         <!-- Git -->
         <div class="tech-card fade-in">
           <div class="tech-icon git-icon">
@@ -146,7 +144,6 @@
           <span class="tech-name">Git</span>
           <span class="tech-desc">Controle de versão</span>
         </div>
-
         <!-- GitHub -->
         <div class="tech-card fade-in">
           <div class="tech-icon gh-icon">
@@ -155,7 +152,6 @@
           <span class="tech-name">GitHub</span>
           <span class="tech-desc">Repositórios & colaboração</span>
         </div>
-
         <!-- Node.js / Backend -->
         <div class="tech-card fade-in">
           <div class="tech-icon node-icon">
@@ -163,8 +159,7 @@
           </div>
           <span class="tech-name">Node.js</span>
           <span class="tech-desc">Backend & APIs</span>
-        </div>
-        
+        </div> 
          <!-- PHP -->
         <div class="tech-card fade-in">
           <div class="tech-icon php-icon">
@@ -176,7 +171,6 @@
         <span class="tech-name">PHP</span>
         <span class="tech-desc">Backend & lógica</span>
         </div>
-        
             <!-- Mysql e AWS-->
         <div class="tech-card fade-in">
           <div class="tech-icon mysql-icon">
@@ -187,7 +181,6 @@
         <span class="tech-name">MySQL</span>
         <span class="tech-desc">Banco relacional</span>
         </div>
-
          <!-- sql -->
       <div class="tech-card fade-in">
          <div class="tech-icon sql-icon">
@@ -199,7 +192,6 @@
       <span class="tech-name">SQL</span>
       <span class="tech-desc">Consultas & manipulação</span>
       </div>
-
         <!-- Python -->
       <div class="tech-card fade-in">
         <div class="tech-icon python-icon">
@@ -211,7 +203,6 @@
         <span class="tech-name">Python</span>
         <span class="tech-desc">Scripts & automação</span>
       </div>
-
       <!-- AWS-->
       <div class="tech-card fade-in">
         <div class="tech-icon aws-icon">
@@ -223,7 +214,6 @@
         <span class="tech-name">AWS</span>
         <span class="tech-desc">Cloud & deploy</span>
         </div>
-
        <!-- Redes -->
         <div class="tech-card fade-in">
           <div class="tech-icon net-icon">
@@ -240,92 +230,86 @@
       </div>
     </div>
   </section>
-
   <!-- ========== PROJETOS ========== -->
-  <section id="projects">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-num">03</span>
-        <h2 class="section-title">Projetos</h2>
+   <section id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Meus Projetos</h2>
+    </div>
+    <div class="projects-grid">
+      <!-- Projeto 1: Jogo do Mario -->
+      <div class="project-card fade-in featured-card">
+        <div class="project-top">
+          <div class="project-badge js-badge">JavaScript</div>
+          <div class="project-links">
+            <a href="https://github.com/luizcarlosdvj-ops/JogoDoMario" target="_blank" rel="noopener" class="project-link" title="Ver no GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-name">Jogo do Mario</h3>
+        <p class="project-desc">
+          Jogo de plataforma desenvolvido com JavaScript puro, inspirado no clássico Super Mario.
+        </p>
+        <div class="project-footer">
+          <a href="https://luizcarlosdvj-ops.github.io/JogoDoMario/" target="_blank" class="btn btn-primary">Ver Demo →</a>
+          <a href="https://github.com/luizcarlosdvj-ops/JogoDoMario" target="_blank" class="btn btn-ghost">GitHub</a>
+        </div>
       </div>
-      <div class="projects-grid">
-
-        <!-- Projeto 1: Jogo do Mario -->
-        <div class="project-card fade-in">
-          <div class="project-top">
-            <div class="project-badge js-badge">JavaScript</div>
-            <div class="project-links">
-              <a href="https://github.com/luizcarlosdvj-ops/JogoDoMario" target="_blank" rel="noopener" class="project-link" title="Ver no GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-name">Jogo do Mario</h3>
-          <p class="project-desc">
-            Jogo de plataforma desenvolvido com JavaScript puro, inspirado no clássico Super Mario. Implementa física de movimento, detecção de colisão e sistema de pontuação — tudo sem bibliotecas externas.
-          </p>
-          <div class="project-footer">
-            <a href="https://github.com/luizcarlosdvj-ops/JogoDoMario" target="_blank" rel="noopener" class="btn btn-sm">Ver no GitHub →</a>
+      <!-- Projeto 2: Restaurante Tuba -->
+      <div class="project-card fade-in featured-card">
+        <div class="project-top">
+          <div class="project-badge html-badge">HTML / CSS</div>
+          <div class="project-links">
+            <a href="https://github.com/luizcarlosdvj-ops/restauranteTuba" target="_blank" rel="noopener" class="project-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
           </div>
         </div>
 
-        <!-- Projeto 2: Restaurante Tuba -->
-        <div class="project-card fade-in">
-          <div class="project-top">
-            <div class="project-badge html-badge">HTML / CSS</div>
-            <div class="project-links">
-              <a href="https://github.com/luizcarlosdvj-ops/restauranteTuba" target="_blank" rel="noopener" class="project-link" title="Ver no GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-name">Restaurante Tuba</h3>
-          <p class="project-desc">
-            Site institucional completo para restaurante, desenvolvido com HTML5 semântico e CSS3. Inclui cardápio digital, seção de contato, layout responsivo e boas práticas de estruturação de páginas web.
-          </p>
-          <div class="project-footer">
-            <a href="https://github.com/luizcarlosdvj-ops/restauranteTuba" target="_blank" rel="noopener" class="btn btn-sm">Ver no GitHub →</a>
+        <h3 class="project-name">Forno Imperiale</h3>
+        <p class="project-desc">
+          Site institucional completo com HTML5 e CSS3, layout responsivo e boas práticas.
+        </p>
+        <div class="project-footer">
+          <a href="https://luizcarlosdvj-ops.github.io/Forno-Imperiale/" target="_blank" class="btn btn-primary">Ver Demo →</a>
+          <a href="https://github.com/luizcarlosdvj-ops/FornoImperiale" target="_blank" class="btn btn-ghost">GitHub</a>
+        </div>
+    </div>
+      <!-- Projeto 3: EcoRouter -->
+      <div class="project-card fade-in featured-card">
+        <div class="project-top">
+          <div class="project-badge eco-badge">JavaScript · API</div>
+          <div class="project-links">
+            <a href="https://github.com/luizcarlosdvj-ops/EcoRouter" target="_blank" rel="noopener" class="project-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
           </div>
         </div>
-
-        <!-- Projeto 3: EcoRouter -->
-        <div class="project-card fade-in featured-card">
-          <div class="project-top">
-            <div class="project-badge eco-badge">JavaScript · API</div>
-            <div class="project-links">
-              <a href="https://github.com/luizcarlosdvj-ops/EcoRouter" target="_blank" rel="noopener" class="project-link" title="Ver no GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-              </a>
-            </div>
-          </div>
-          <span class="featured-label">Destaque</span>
-          <h3 class="project-name">EcoRouter</h3>
-          <p class="project-desc">
-            Aplicação com foco em sustentabilidade que calcula e sugere rotas de menor impacto ambiental. Integra consumo de APIs externas e lógica de otimização em JavaScript, demonstrando habilidades em desenvolvimento orientado a dados.
-          </p>
-          <div class="project-footer">
-            <a href="https://github.com/luizcarlosdvj-ops/EcoRouter" target="_blank" rel="noopener" class="btn btn-sm">Ver no GitHub →</a>
-          </div>
+        <span class="featured-label">Destaque</span>
+        <h3 class="project-name">EcoRouter</h3>
+        <p class="project-desc">
+          Aplicação que calcula rotas com menor impacto ambiental usando APIs externas.
+        </p>
+        <div class="project-footer">
+          <a href="https://luizcarlosdvj-ops.github.io/EcoRouter/" target="_blank" class="btn btn-primary">Ver Demo →</a>
+          <a href="https://github.com/luizcarlosdvj-ops/EcoRouter" target="_blank" class="btn btn-ghost">GitHub</a>
         </div>
-
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
   <!-- ========== CONTATO ========== -->
   <section id="contact">
     <div class="container">
       <div class="section-header">
         <span class="section-num">04</span>
-        <h2 class="section-title">Contato</h2>
+        <h2 class="section-title">Formas de Contato</h2>
       </div>
       <div class="contact-wrapper fade-in">
-        <p class="contact-intro">
-          Estou aberto a oportunidades de estágio, freela ou colaboração em projetos.<br />
-          Pode me chamar — responderei o mais rápido possível.
-        </p>
+        <p class="contact-intro"> Estou aberto a oportunidades de estágio, freela ou colaboração em projetos.<br /> Pode me chamar!</p>
         <div class="contact-cards">
-
           <a href="mailto:luizcarlosdvj@gmail.com" class="contact-card">
             <div class="contact-icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
@@ -336,8 +320,7 @@
             </div>
             <span class="contact-arrow">→</span>
           </a>
-
-          <a href="https://linkedin.com/in/luizcarlos" target="_blank" rel="noopener" class="contact-card">
+          <a href="https://www.linkedin.com/in/luiz-carlos-de-vasconcellos" target="_blank" rel="noopener" class="contact-card">
             <div class="contact-icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             </div>
@@ -347,7 +330,6 @@
             </div>
             <span class="contact-arrow">→</span>
           </a>
-
           <a href="https://github.com/luizcarlosdvj-ops" target="_blank" rel="noopener" class="contact-card">
             <div class="contact-icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
@@ -358,12 +340,10 @@
             </div>
             <span class="contact-arrow">→</span>
           </a>
-
         </div>
       </div>
     </div>
   </section>
-
   <!-- ========== FOOTER ========== -->
   <footer>
     <p>Feito por <span class="accent">Luiz Carlos</span> · <span id="year"></span></p>
